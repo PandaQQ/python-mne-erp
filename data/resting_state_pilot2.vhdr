@@ -1,0 +1,73 @@
+Brain Vision Data Exchange Header File Version 1.0
+; Data created by the actiCHamp PyCorder
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=resting_state_pilot2.eeg
+MarkerFile=resting_state_pilot2.vmrk
+DataFormat=BINARY
+; Data orientation: MULTIPLEXED=ch1,pt1, ch2,pt1 ...
+DataOrientation=MULTIPLEXED
+NumberOfChannels=16
+; Sampling interval in microseconds
+SamplingInterval=1000
+
+[Binary Infos]
+BinaryFormat=IEEE_FLOAT_32
+
+[Channel Infos]
+; Each entry: Ch<Channel number>=<Name>,<Reference channel name>,
+; <Scaling factor in "Unit">,<Unit>, Future extensions..
+; Fields are delimited by commas, some fields might be omitted (empty).
+; Commas in channel names are coded as "\1".
+Ch1=Fp1,,1.0,µV
+Ch2=Fz,,1.0,µV
+Ch3=FC5,,1.0,µV
+Ch4=C3,,1.0,µV
+Ch5=TP9,,1.0,µV
+Ch6=Pz,,1.0,µV
+Ch7=P3,,1.0,µV
+Ch8=O1,,1.0,µV
+Ch9=Oz,,1.0,µV
+Ch10=O2,,1.0,µV
+Ch11=P4,,1.0,µV
+Ch12=TP10,,1.0,µV
+Ch13=Cz,,1.0,µV
+Ch14=C4,,1.0,µV
+Ch15=FC6,,1.0,µV
+Ch16=Fp2,,1.0,µV
+
+[Comment]
+PyCorder V1.0.9
+
+Amplifier
+actiCHamp (5001) SN: 16090718 Rev. 3
+Module 1  (5010) SN: 16081299
+Module 2  (5010) SN: 16081300
+Module 3  (5010) SN: 16081278
+Module 4  n.a.
+Module 5  n.a.
+Version: DLL_25.14.08.04, DRV_03.04.01.146, CTRL_101.15.05.28, FPGAM_48.00.00.00, FPGAC_45.00.00.00, DSP_105.14.10.07
+
+
+
+Reference channel: none
+
+Impedance [KOhm] at 16:32:27 (recording started at 16:33:21)
+  1 Fp1: 17
+  2 Fz: 15
+  6 FC5: 20
+  8 C3: 23
+ 10 TP9: 17
+ 13 Pz: 7
+ 14 P3: 25
+ 16 O1: 28
+ 17 Oz: 24
+ 18 O2: 27
+ 19 P4: 19
+ 21 TP10: 17
+ 24 Cz: 2
+ 25 C4: 28
+ 28 FC6: 25
+ 32 Fp2: 1
+GND: 2
